@@ -54,6 +54,10 @@ Users should run `Start_AstraMark.bat`. It checks for the .NET Framework runtime
 
 The native EXE does not require Python.
 
+## Windows Publisher Warning
+
+If Windows says `Unknown publisher`, the app needs to be signed with a real code-signing certificate. See `SIGNING.md`. This cannot be bypassed honestly from code; Windows only trusts a publisher after the EXE is signed by a trusted certificate.
+
 There is also a Python version if you prefer command-line customization. It requires Python to be installed.
 
 Examples:
