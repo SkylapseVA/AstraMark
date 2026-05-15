@@ -23,12 +23,15 @@ dist\AstraMark.exe
 The top-right panel lets you change:
 
 - size, center gap, thickness, dot size, opacity, and screen offset
+- monitor selection for multi-monitor setups
 - shape: cross, plus, dot, circle, square, X, or T
 - color swatches
 - center dot and black outline
 - keybinds, with a visible list of current shortcuts
 
 The `Plus` shape is a clean `+` with no center dot. It disables the gap and dot controls while selected because those settings do not apply to that shape. The `Dot` shape is just a centered `.` and uses the dot size control.
+
+If the crosshair appears off-center, choose the correct monitor in the `Look` tab and keep X/Y offset at `0`.
 
 Click `Set` next to a keybind, then press a combo like `Ctrl+Alt+K`.
 
